@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Formulario</title>
+</head>
+
+<body>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>
+                Datos personales
+            </legend>
+
+            <label for="nombre">Nombre </label><br>
+
+            <input type="text" name="nombre" id="nombre" placeholder="Juan"><br>
+            <label for="apellido">apellido </label><br>
+
+            <input type="text" name="apellido" id="apellido" placeholder="Perez"><br>
+            <label for="Dia de nacimiento">Dia de nacimiento</label><br>
+            <input type="date" name="bday" id="bday"><br>
+        </fieldset>
+        <fieldset>
+            <legend>Cuenta</legend>
+            <label for="email">Email: </label><br>
+            <input type="email" name="email" id="email" required><br>
+            <label for="Contrasena">contrasena: </label><br>
+            <input type="password" name="pass" id="pass" required pattern=".{5,10}"><br>
+            <label for="Contrasena">verificar contrasena: </label><br>
+            <input type="password" name="pass" id="pass" required pattern=".{5,10}"><br>
+
+        </fieldset>
+        <input type="submit" value="Enviar">
+        <button>
+                <a href="periodico.html">Cancel </a>
+            </button>
+
+    </form>
+
+</body>
+
+</html>
